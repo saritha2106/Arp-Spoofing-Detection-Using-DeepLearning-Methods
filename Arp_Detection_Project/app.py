@@ -6,12 +6,15 @@ from tensorflow.keras.models import load_model
 import matplotlib.pyplot as plt
 import json
 import seaborn as sns
+import os
 
 
 st.set_page_config(page_title="ARP Detection System", layout="wide")
 
 
-model = load_model("arp_detection_model.keras")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model = load_model(os.path.join(BASE_DIR, "arp_detection_model.keras"))
 scaler = joblib.load("scaler.save")
 
 
