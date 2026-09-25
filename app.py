@@ -14,7 +14,7 @@ st.set_page_config(page_title="ARP Detection System", layout="wide")
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-model = load_model(os.path.join(BASE_DIR, "arp_detection_model.keras"))
+model = load_model(os.path.join(BASE_DIR, "arp_detection_model.h5"))
 scaler = joblib.load("scaler.save")
 
 
