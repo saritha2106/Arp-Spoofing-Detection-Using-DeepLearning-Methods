@@ -20,7 +20,7 @@ A deep learning-based system for detecting ARP spoofing attacks in network traff
 - NumPy
 
 ## Accuracy
-**91.73% test accuracy**
+**92.31% test accuracy**
 
 ## Run
 
