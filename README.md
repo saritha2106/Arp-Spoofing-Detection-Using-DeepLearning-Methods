@@ -22,8 +22,4 @@ A deep learning-based system for detecting ARP spoofing attacks in network traff
 ## Accuracy
 **92.31% test accuracy**
 
-## Run
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
